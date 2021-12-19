@@ -10,7 +10,7 @@ interface IUserCreate {
 }
 
 export class CreateUserService {
-    async execute({name, email, password, admin}: IUserCreate) {
+    async execute({name, email, password, admin = false}: IUserCreate) {
         const userRepositories = getCustomRepository(UsersRepositories);
 
         if(!email) {
