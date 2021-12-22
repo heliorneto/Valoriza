@@ -1,4 +1,4 @@
-#📝 Valoriza
+# 📝 Valoriza
 
 ## 🔎 Sobre o Projeto
 
